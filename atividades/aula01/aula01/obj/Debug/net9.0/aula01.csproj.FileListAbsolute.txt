@@ -96,3 +96,4 @@ C:\Users\Gustavo Felicetti\Desktop\unoesc\Programação 1\atividades\aula01\aula
 C:\Users\Gustavo Felicetti\Desktop\unoesc\Programação 1\atividades\aula01\aula01\obj\Debug\net9.0\aula01.pdb
 C:\Users\Gustavo Felicetti\Desktop\unoesc\Programação 1\atividades\aula01\aula01\obj\Debug\net9.0\aula01.genruntimeconfig.cache
 C:\Users\Gustavo Felicetti\Desktop\unoesc\Programação 1\atividades\aula01\aula01\obj\Debug\net9.0\ref\aula01.dll
+C:\Users\Gustavo Felicetti\Desktop\unoesc\Programação 1\atividades\aula01\aula01\obj\Debug\net9.0\aula01.sourcelink.json
