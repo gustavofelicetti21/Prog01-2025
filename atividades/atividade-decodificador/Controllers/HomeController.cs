@@ -14,27 +14,27 @@ namespace atividade_decodificador.Controllers
         }
 
         [HttpGet]
-        public IActionResult EncriptarDecriptar()
+        public IActionResult EncryptionDecryption()
         {
-            var model = new EncriptarDecriptar();
+            var model = new EncryptionDecryption();
             return View(model);
         }
 
         [HttpPost]
-        public IActionResult EncryptionDecryption(EncriptarDecriptar model, string action)
+        public IActionResult EncryptionDecryption(EncryptionDecryption model, string action)
         {
-            if (!string.IsNullOrEmpty(model.entradaUsuario) || !string.IsNullOrEmpty(model.textoEncriptado))
+            if (!string.IsNullOrEmpty(model.userInput) || !string.IsNullOrEmpty(model.encryptedText))
             {
-                if (action == "Encrypt" && !string.IsNullOrEmpty(model.entradaUsuario))
+                if (action == "Encrypt" && !string.IsNullOrEmpty(model.userInput))
                 {
-                    model.textoEncriptado= model.Encriptar(model.entradaUsuario, model.shift);
-                    model.textoDecriptado= null;
-                    model.entradaUsuario= null;
+                    model.encryptedText = model.Encrypt(model.userInput, model.shift);
+                    model.decryptedText = null;
+                    model.userInput = null;
                 }
-                else if (action == "Decrypt" && !string.IsNullOrEmpty(model.textoEncriptado))
+                else if (action == "Decrypt" && !string.IsNullOrEmpty(model.encryptedText))
                 {
-                    model.textoDecriptado= model.Decriptar(model.textoEncriptado, model.shift);
-                    model.textoEncriptado= null; // Correct reset.
+                    model.decryptedText = model.Decrypt(model.encryptedText, model.shift);
+                    model.encryptedText = null; // Correct reset.
                 }
                 else
                 {
