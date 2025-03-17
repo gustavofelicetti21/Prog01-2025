@@ -1,0 +1,26 @@
+﻿﻿
+@model atividade_decodificador.Models.EncriptarDecriptar;
+
+@{
+    ViewData["Title"] = "EncriptarDecriptar";
+}
+
+<h1 class="cypherPage">Cifra de Cesar</h1>
+
+
+<form asp-action="EncriptarDecriptar" class="forularioEncriptar" method="post">
+    <h2 class="encryptTitle">Encriptar Mensagem</h2>
+    <input type="text" asp-for="entradaUsuario" placeholder="Digite frase para Encriptar" />
+    <input type="number" asp-for="shift" placeholder="Digite valor para mudar Letras" />
+    <button class="cypherButton" type="submit" name="action" value="Encriptar">Encriptar</button>
+    <h3>Mensagem Encriptada: @Model.textoEncriptado</h3>
+</form>
+
+
+<form asp-action="EncriptarDecriptar" class="formularioDescriptar" method="post">
+    <h2 class="decryptTitle">Descriptar Mensagens</h2>
+    <input type="text" asp-for="textoDecriptado" placeholder="Digite frase para Descriptar" />
+    <input type="number" asp-for="shift" placeholder="Digite valor para mudar Letras" />
+    <button class="cypherButton" type="submit" name="action" value="Descriptar">Decrypt</button>
+    <h2>Mensagem Descriptada: @Model.textoDecriptado</h2>
+</form>

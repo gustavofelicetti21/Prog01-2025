@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("atividade-decodificador")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+993fdc5146fe2c397e45eadb43b180612c114a97")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2cdd86120fa2b6be09e20b970822177da0f47076")]
 [assembly: System.Reflection.AssemblyProductAttribute("atividade-decodificador")]
 [assembly: System.Reflection.AssemblyTitleAttribute("atividade-decodificador")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
