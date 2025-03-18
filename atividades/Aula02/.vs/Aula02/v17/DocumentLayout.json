@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{334EFFC9-26D3-4BED-BE39-6A84BB4DD837}|Aula02.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{334EFFC9-26D3-4BED-BE39-6A84BB4DD837}|Aula02.csproj|c:\\users\\gustavo felicetti\\desktop\\unoesc\\programa\u00E7\u00E3o 1\\atividades\\aula02\\models\\datatype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{334EFFC9-26D3-4BED-BE39-6A84BB4DD837}|Aula02.csproj|solutionrelative:models\\datatype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{334EFFC9-26D3-4BED-BE39-6A84BB4DD837}|Aula02.csproj|c:\\users\\gustavo felicetti\\desktop\\unoesc\\programa\u00E7\u00E3o 1\\atividades\\aula02\\models\\typecasting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{334EFFC9-26D3-4BED-BE39-6A84BB4DD837}|Aula02.csproj|solutionrelative:models\\typecasting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{334EFFC9-26D3-4BED-BE39-6A84BB4DD837}|Aula02.csproj|c:\\users\\gustavo felicetti\\desktop\\unoesc\\programa\u00E7\u00E3o 1\\atividades\\aula02\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{334EFFC9-26D3-4BED-BE39-6A84BB4DD837}|Aula02.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{334EFFC9-26D3-4BED-BE39-6A84BB4DD837}|Aula02.csproj|c:\\users\\gustavo felicetti\\desktop\\unoesc\\programa\u00E7\u00E3o 1\\atividades\\aula02\\models\\typecasting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{334EFFC9-26D3-4BED-BE39-6A84BB4DD837}|Aula02.csproj|solutionrelative:models\\typecasting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{334EFFC9-26D3-4BED-BE39-6A84BB4DD837}|Aula02.csproj|c:\\users\\gustavo felicetti\\desktop\\unoesc\\programa\u00E7\u00E3o 1\\atividades\\aula02\\models\\datatype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{334EFFC9-26D3-4BED-BE39-6A84BB4DD837}|Aula02.csproj|solutionrelative:models\\datatype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "TypeCasting.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programa\u00E7\u00E3o 1\\atividades\\Aula02\\Models\\TypeCasting.cs",
               "RelativeDocumentMoniker": "Models\\TypeCasting.cs",
@@ -49,7 +49,7 @@
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programa\u00E7\u00E3o 1\\atividades\\Aula02\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAwDEAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-17T22:53:14.249Z",
               "EditorCaption": ""
@@ -69,7 +69,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "DataType.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programa\u00E7\u00E3o 1\\atividades\\Aula02\\Models\\DataType.cs",
               "RelativeDocumentMoniker": "Models\\DataType.cs",
@@ -77,8 +77,7 @@
               "RelativeToolTip": "Models\\DataType.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAQwCsAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T22:46:26.79Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-17T22:46:26.79Z"
             }
           ]
         }

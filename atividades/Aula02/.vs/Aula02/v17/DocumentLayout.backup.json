@@ -15,8 +15,8 @@
       "RelativeMoniker": "D:0:0:{334EFFC9-26D3-4BED-BE39-6A84BB4DD837}|Aula02.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{334EFFC9-26D3-4BED-BE39-6A84BB4DD837}|Aula02.csproj|c:\\users\\gustavo felicetti\\desktop\\unoesc\\programa\u00E7\u00E3o 1\\atividades\\aula02\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{334EFFC9-26D3-4BED-BE39-6A84BB4DD837}|Aula02.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{334EFFC9-26D3-4BED-BE39-6A84BB4DD837}|Aula02.csproj|c:\\users\\gustavo felicetti\\desktop\\unoesc\\programa\u00E7\u00E3o 1\\atividades\\aula02\\models\\typecasting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{334EFFC9-26D3-4BED-BE39-6A84BB4DD837}|Aula02.csproj|solutionrelative:models\\typecasting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,15 +31,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programa\u00E7\u00E3o 1\\atividades\\Aula02\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programa\u00E7\u00E3o 1\\atividades\\Aula02\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-17T23:06:46.669Z",
-              "EditorCaption": ""
+              "Title": "TypeCasting.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programa\u00E7\u00E3o 1\\atividades\\Aula02\\Models\\TypeCasting.cs",
+              "RelativeDocumentMoniker": "Models\\TypeCasting.cs",
+              "ToolTip": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programa\u00E7\u00E3o 1\\atividades\\Aula02\\Models\\TypeCasting.cs",
+              "RelativeToolTip": "Models\\TypeCasting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T23:33:05.628Z"
             },
             {
               "$type": "Document",
@@ -49,7 +48,7 @@
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programa\u00E7\u00E3o 1\\atividades\\Aula02\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAwDAAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAwC4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-17T22:53:14.249Z",
               "EditorCaption": ""
@@ -64,8 +63,7 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T22:50:37.939Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-17T22:50:37.939Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "Models\\DataType.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAQwCsAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T22:46:26.79Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-17T22:46:26.79Z"
             }
           ]
         }
