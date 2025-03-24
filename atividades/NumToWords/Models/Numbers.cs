@@ -10,7 +10,7 @@ namespace NumToWords.Models
         public string[] dezenaS = { "Dez", "Onze", "Doze", "Treze", "Quatorze", "Quinze", "Deszsseis", "Dezessete", "Dezoito", "Dezenove", "Vinte", "Trinta", "Quarenta", "Cinquenta", "Sessenta", "Setenta", "Oitenta", "Noventa"};
         public string[] centenaS = { "Cem", "Cento", "Duzentos", "Trezentos", "Quatrocentos", "Quinentos", "Seiscentos", "Setecentos", "Oitocentos", "Novecentos" };
         public string[] milharS = {"", "Mil", "Dois Mil", "Três Mil", "Quatro Mil", "Cinco Mil", "Seis Mil", "Sete Mil", "Oito Mil", "Nove Mil"};
-
+        public string classification { get; set; }
 
         public string NumberConvert(int userInput)
         {
@@ -84,6 +84,31 @@ namespace NumToWords.Models
                 num = "Digite um valor entre 0 e 99999";
             }
             return num;
+        }
+
+        public string numberClassification(int userInput)
+        {
+            if((userInput<10)&&(userInput >= 0))
+            {
+                classification = "Unidade";
+            }
+            else if ((userInput >= 10) && (userInput < 99))
+            {
+                classification = "Dezena";
+            }
+            else if ((userInput >= 100) && (userInput < 999))
+            {
+                classification = "Centena";
+            }
+            else if ((userInput >= 1000) && (userInput < 999999))
+            {
+                classification = "Milhar";
+            }
+            else
+            {
+                classification = "Digite um valor válido";
+            }
+            return classification;
         }
 
         private String msgDezenaUnidade(int numero)
