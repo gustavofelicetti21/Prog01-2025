@@ -24,6 +24,7 @@ public class HomeController : Controller
     public IActionResult Numbers(Numbers model)
     {
         model.numInText = model.NumberConvert(model.userInput);
+        model.classification = model.numberClassification(model.userInput);
         return View("Index", model);
     }
 
