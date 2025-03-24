@@ -1,4 +1,4 @@
-﻿@model NumToWords.Models.Numbers;
+@model NumToWords.Models.Numbers;
 
 @{
     ViewData["Title"] = "Home Page";
@@ -10,5 +10,5 @@
     <h3>Digite um número</h3>
     <input type="number" name="userInput" asp-for="userInput" value="" />
     <button class="button" type="submit" name="action" value="convert">Enviar</button>
-    <h3>Número Por Extenso: @Model.numInText</h3>
+    <h5>Número Por Extenso: @Model.numInText</h5>
 </form>
