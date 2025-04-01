@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programa\u00E7\u00E3o 1\\atividades\\NumToWords\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9695F8AE-D32A-4281-8F10-A20BFFB85F48}|NumToWords.csproj|c:\\users\\gustavo felicetti\\desktop\\unoesc\\programa\u00E7\u00E3o 1\\atividades\\numtowords\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9695F8AE-D32A-4281-8F10-A20BFFB85F48}|NumToWords.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9695F8AE-D32A-4281-8F10-A20BFFB85F48}|NumToWords.csproj|c:\\users\\gustavo felicetti\\desktop\\unoesc\\programa\u00E7\u00E3o 1\\atividades\\numtowords\\models\\numbers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9695F8AE-D32A-4281-8F10-A20BFFB85F48}|NumToWords.csproj|solutionrelative:models\\numbers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,7 +22,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programa\u00E7\u00E3o 1\\atividades\\NumToWords\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -39,19 +35,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programa\u00E7\u00E3o 1\\atividades\\NumToWords\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programa\u00E7\u00E3o 1\\atividades\\NumToWords\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-18T00:19:52.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Numbers.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programa\u00E7\u00E3o 1\\atividades\\NumToWords\\Models\\Numbers.cs",
               "RelativeDocumentMoniker": "Models\\Numbers.cs",

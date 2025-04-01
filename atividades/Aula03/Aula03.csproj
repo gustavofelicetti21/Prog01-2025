@@ -6,4 +6,15 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Views\Home\JogoVelha\**" />
+    <Compile Remove="Views\NewFolder\**" />
+    <Content Remove="Views\Home\JogoVelha\**" />
+    <Content Remove="Views\NewFolder\**" />
+    <EmbeddedResource Remove="Views\Home\JogoVelha\**" />
+    <EmbeddedResource Remove="Views\NewFolder\**" />
+    <None Remove="Views\Home\JogoVelha\**" />
+    <None Remove="Views\NewFolder\**" />
+  </ItemGroup>
+
 </Project>
