@@ -43,6 +43,8 @@ namespace Aula03.Controllers
             {
                 xO = 0;
                 xX = 0;
+                yO = 0;
+                yX = 0;
                 for (int j=0; j < 3; j++)
                 {
                     if (i==j)
@@ -56,7 +58,8 @@ namespace Aula03.Controllers
                             oDiag++;
                         }
                     }
-                    else if (((j+i)==2)|| ((i + j) == 2)) {
+
+                    if ((j+i)==2) {
                         if (matrixJV[i, j] == "X")
                         {
                             xDiag2++;
@@ -66,35 +69,14 @@ namespace Aula03.Controllers
                             oDiag2++;
                         }
                     }
-                    else
-                    {
-                        if (matrixJV[i, j] == "X")
-                        {
-                            xX++;
-                        }
-                        else
-                        {
-                            xO++;
-                        }
-                        if (xX == 3)
-                        {
-                            retorno = "X é campeão";
-                            break;
-                        }
-                        else if (xO == 3)
-                        {
-                            retorno = "O é campeão";
-                            break;
-                        }
-                    }
 
-                    if (matrixJV[j, i] == "X")
+                    if (matrixJV[i, j] == "X")
                     {
-                        yX++;
+                        xX++;
                     }
                     else
                     {
-                        yO++;
+                        xO++;
                     }
                     if (xX == 3)
                     {
@@ -106,7 +88,29 @@ namespace Aula03.Controllers
                         retorno = "O é campeão";
                         break;
                     }
+
+                    if (matrixJV[j, i] == "X")
+                    {
+                        yX++;
+                    }
+                    else
+                    {
+                        yO++;
+                    }
+
+                    if (yX == 3)
+                    {
+                        retorno = "X é campeão";
+                        break;
+                    }
+                    else if (yO == 3)
+                    {
+                        retorno = "O é campeão";
+                        break;
+                    }
                 }
+                if (retorno != string.Empty) 
+                    break;
             }
             if (xDiag == 3)
             {
@@ -124,12 +128,12 @@ namespace Aula03.Controllers
             {
                 retorno = "O é campeão";
             }
-            else
+            else if ((retorno==string.Empty))
             {
                 retorno = "Empate";
             }
 
-                return View("index", retorno);
+            return View("index", retorno);
         }
     }
 }
