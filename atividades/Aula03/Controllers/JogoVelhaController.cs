@@ -53,7 +53,7 @@ namespace Aula03.Controllers
                         {
                             xDiag++;
                         }
-                        else
+                        else if (matrixJV[i, j] == "O")
                         {
                             oDiag++;
                         }
@@ -64,7 +64,7 @@ namespace Aula03.Controllers
                         {
                             xDiag2++;
                         }
-                        else
+                        else if (matrixJV[i, j] == "O")
                         {
                             oDiag2++;
                         }
@@ -74,7 +74,7 @@ namespace Aula03.Controllers
                     {
                         xX++;
                     }
-                    else
+                    else if (matrixJV[i, j] == "O")
                     {
                         xO++;
                     }
@@ -93,7 +93,7 @@ namespace Aula03.Controllers
                     {
                         yX++;
                     }
-                    else
+                    else if (matrixJV[i, j] == "O")
                     {
                         yO++;
                     }
