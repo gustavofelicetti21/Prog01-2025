@@ -1,0 +1,42 @@
+﻿@{
+}
+
+<div class="m-5">
+    <form method="get" asp-action="Decrementa">
+        <div class="form-group m-2">
+            <label for="xDecrementador">Valor de x:</label>
+            <input type="text" name="x" id="xDecrementador" />
+        </div>
+        <button type="submit" value="Somador">Decrementar</button>
+    </form>
+</div>
+
+<div class="m-5">
+    <form method="get" asp-action="Somador">
+        <div class="form-group m-2">
+            <label for="xSomador">Valor de x:</label>
+            <input type="text" name="x" id="xSomador" />
+        </div>
+        <button type="submit" value="Somador">Sumarizar</button>
+    </form>
+</div>
+
+<div class="m-5">
+    <form method="get" asp-action="TamanhoString">
+        <div class="form-group m-2">
+            <label for="stringTamanho">Palavra:</label>
+            <input type="text" name="palavra" id="stringTamanho" />
+        </div>
+        <button type="submit" value="TamanhoString">Tamanho da String</button>
+    </form>
+</div>
+
+<div class="m-5">
+    <form method="get" asp-action="GetPalindromo">
+        <div class="form-group m-2">
+            <label for="palindromo">Palavra:</label>
+            <input type="text" name="palavra" id="palindromo" />
+        </div>
+        <button type="submit" value="GetPalindromo">É Palindromo?</button>
+    </form>
+</div>
