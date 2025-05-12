@@ -46,7 +46,7 @@ public class HomeController : Controller
     }
 
     [HttpGet]
-    public string PrintNaturalRecursion(int count = 10)
+    public string PrintNaturalRecursion(int count)
     {
         string retorno = "";
 
