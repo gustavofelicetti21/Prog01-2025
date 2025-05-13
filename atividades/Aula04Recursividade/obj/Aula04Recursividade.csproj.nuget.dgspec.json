@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gustavo.felicetti\\Documents\\prog1\\atividades\\Aula04Recursividade\\Aula04Recursividade.csproj": {}
+    "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula04Recursividade\\Aula04Recursividade.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gustavo.felicetti\\Documents\\prog1\\atividades\\Aula04Recursividade\\Aula04Recursividade.csproj": {
+    "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula04Recursividade\\Aula04Recursividade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gustavo.felicetti\\Documents\\prog1\\atividades\\Aula04Recursividade\\Aula04Recursividade.csproj",
+        "projectUniqueName": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula04Recursividade\\Aula04Recursividade.csproj",
         "projectName": "Aula04Recursividade",
-        "projectPath": "C:\\Users\\gustavo.felicetti\\Documents\\prog1\\atividades\\Aula04Recursividade\\Aula04Recursividade.csproj",
-        "packagesPath": "C:\\Users\\gustavo.felicetti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gustavo.felicetti\\Documents\\prog1\\atividades\\Aula04Recursividade\\obj\\",
+        "projectPath": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula04Recursividade\\Aula04Recursividade.csproj",
+        "packagesPath": "C:\\Users\\Gustavo Felicetti\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula04Recursividade\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\gustavo.felicetti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Gustavo Felicetti\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -69,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

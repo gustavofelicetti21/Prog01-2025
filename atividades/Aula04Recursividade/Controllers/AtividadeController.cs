@@ -28,9 +28,6 @@ namespace Aula04Recursividade.Controllers
 
             ret += $" {n} ";
             n--;
-
-            // Chamada recursiva: Inrementa n e Decrementa count
-            // Para imprimir o número
             ret += DecrementRecursion(n);
 
 
@@ -68,7 +65,7 @@ namespace Aula04Recursividade.Controllers
             string retorno = "";
             
             
-            retorno = $"{stringRecursion(palavra, 1)}";
+            retorno = $"{stringRecursion(palavra, 1)} Letras";
 
             return retorno;
         }
@@ -77,13 +74,19 @@ namespace Aula04Recursividade.Controllers
         {
             int ret = 0;
 
-            if (palavra[count] != null)
+            string restante = palavra.Substring(1);
+            if (restante == "")
             {
-                ret = count;    
+                ret = count;
+                return ret;
+            }
+            else
+            {
+                count++;
+                stringRecursion(restante, count);
             }
 
-
-            return ret; 
+            return 0; 
         }
     }
 }
