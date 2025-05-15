@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Security.AccessControl;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Aula04Recursividade.Controllers
 {
@@ -35,7 +36,7 @@ namespace Aula04Recursividade.Controllers
         }
 
         [HttpGet]
-        public string Somador(int n=10)
+        public string Somador(int n = 10)
         {
             string retorno = "";
 
@@ -63,30 +64,59 @@ namespace Aula04Recursividade.Controllers
         public string tamanhoString(string palavra)
         {
             string retorno = "";
-            
-            
-            retorno = $"{stringRecursion(palavra, 1)} Letras";
+
+
+            retorno = $"{stringRecursion(palavra, 0)} Letras";
 
             return retorno;
         }
 
         public int stringRecursion(string palavra, int count)
         {
-            int ret = 0;
+            int ret = count;
+            string restante = palavra;
 
-            string restante = palavra.Substring(1);
-            if (restante == "")
+
+            if ((restante == "") || (restante == null))
             {
-                ret = count;
                 return ret;
             }
             else
             {
+                restante = palavra.Substring(1);
                 count++;
-                stringRecursion(restante, count);
+                ret = stringRecursion(restante, count);
             }
 
-            return 0; 
+            return ret;
+        }
+
+        public bool getPalindromo(string palavra)
+        {
+            bool retorno = false;
+            int tamanho = stringRecursion(palavra, 0);
+            retorno = PalindromoRecurion(palavra, tamanho, "", false);
+
+            return retorno;
+        }
+        public bool PalindromoRecurion(string palavra, int tamanho, string reverso, bool retorno)
+        {
+            bool ret = retorno;
+
+            if (tamanho != 0)
+            {
+                tamanho--;
+                reverso += palavra.ToArray()[tamanho];
+            }
+
+            if ((tamanho==0) && (palavra == reverso))
+            {
+                retorno = true;
+            }
+
+            ret = PalindromoRecurion(palavra, tamanho, reverso, retorno);
+
+            return ret;
         }
     }
 }
