@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\gustavo.felicetti\\Documents\\prog\\atividades\\Aula04Recursividade\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9CC5A194-AF43-4CDB-A2EF-7B4424EB67D1}|Aula04Recursividade.csproj|c:\\users\\gustavo.felicetti\\documents\\prog\\atividades\\aula04recursividade\\controllers\\atividadecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CC5A194-AF43-4CDB-A2EF-7B4424EB67D1}|Aula04Recursividade.csproj|solutionrelative:controllers\\atividadecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AtividadeController.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo.felicetti\\Documents\\prog\\atividades\\Aula04Recursividade\\Controllers\\AtividadeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AtividadeController.cs",
+              "ToolTip": "C:\\Users\\gustavo.felicetti\\Documents\\prog\\atividades\\Aula04Recursividade\\Controllers\\AtividadeController.cs",
+              "RelativeToolTip": "Controllers\\AtividadeController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAawHEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T13:46:28.821Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

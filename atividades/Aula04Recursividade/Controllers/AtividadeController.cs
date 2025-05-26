@@ -93,30 +93,24 @@ namespace Aula04Recursividade.Controllers
 
         public bool getPalindromo(string palavra)
         {
-            bool retorno = false;
+            if (string.IsNullOrWhiteSpace(palavra))
+                return false;
             int tamanho = stringRecursion(palavra, 0);
-            retorno = PalindromoRecurion(palavra, tamanho, "", false);
-
-            return retorno;
+            palavra = palavra.ToLower();
+            return  PalindromoRecurion(palavra, 0, tamanho-1);
         }
-        public bool PalindromoRecurion(string palavra, int tamanho, string reverso, bool retorno)
+        public bool PalindromoRecurion(string palavra, int esquerda, int direita)
         {
-            bool ret = retorno;
+            // Caso base: se os índices se cruzaram, é palíndromo
+            if (esquerda >= direita)
+                return true;
 
-            if (tamanho != 0)
-            {
-                tamanho--;
-                reverso += palavra.ToArray()[tamanho];
-            }
+            // Se os caracteres não são iguais, não é palíndromo
+            if (palavra[esquerda] != palavra[direita])
+                return false;
 
-            if ((tamanho==0) && (palavra == reverso))
-            {
-                retorno = true;
-            }
-
-            ret = PalindromoRecurion(palavra, tamanho, reverso, retorno);
-
-            return ret;
+            // Continua recursivamente com os próximos caracteres
+            return PalindromoRecurion(palavra, esquerda + 1, direita - 1);
         }
     }
 }
