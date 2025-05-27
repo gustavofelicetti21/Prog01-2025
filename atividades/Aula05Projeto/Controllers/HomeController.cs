@@ -1,32 +1,22 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Modelo;
 using Aula05Projeto.Models;
-using Aula05;
 
-namespace Aula05Projeto.Controllers;
+namespace Aula05.Controllers;
 
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
+    private Order _order;
 
     public HomeController(ILogger<HomeController> logger)
     {
         _logger = logger;
     }
-    
 
     public IActionResult Index()
     {
-        Custumer c1 = new Custumer();
-        c1.Name = "Frodo";
-        c1.ObjectCount++;
-        Custumer.InstantCount++;
-
-        var c2 = new Custumer();
-        c2.Name = "Galadriel";
-        c2.ObjectCount++;
-        Custumer.InstantCount++;
-
         return View();
     }
 

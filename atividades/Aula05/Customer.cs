@@ -1,6 +1,6 @@
 ﻿namespace Aula05
 {
-    public class Custumer
+    public class Customer
     {
         public int Id { get; set; }
         public string? Name { get; set; }
@@ -15,12 +15,12 @@
             return true;
         }
 
-        public Custumer Retrive()
+        public Customer Retrive()
         {
-            return new Custumer();
+            return new Customer();
         }
 
-        public void Save(Custumer custumer)
+        public void Save(Customer customer)
         {
 
         }

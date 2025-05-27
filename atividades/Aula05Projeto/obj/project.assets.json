@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net9.0": {
+      "Modelo/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Modelo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Modelo.dll": {}
+        }
+      },
+      "Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Modelo": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Repository.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Modelo/1.0.0": {
+      "type": "project",
+      "path": "../Modelo/Modelo.csproj",
+      "msbuildProject": "../Modelo/Modelo.csproj"
+    },
+    "Repository/1.0.0": {
+      "type": "project",
+      "path": "../Repository/Repository.csproj",
+      "msbuildProject": "../Repository/Repository.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net9.0": [
+      "Modelo >= 1.0.0",
+      "Repository >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Gustavo Felicetti\\.nuget\\packages\\": {},
@@ -39,7 +77,14 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Modelo\\Modelo.csproj": {
+              "projectPath": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Modelo\\Modelo.csproj"
+            },
+            "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Repository\\Repository.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
