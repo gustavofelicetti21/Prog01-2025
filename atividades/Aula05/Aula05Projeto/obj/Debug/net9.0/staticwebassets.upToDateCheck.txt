@@ -1,3 +1,4 @@
+C:\Users\Gustavo Felicetti\Desktop\unoesc\Programação 1\atividades\Aula05\Aula05Projeto\wwwroot\TextFiles\FixedFileCustomer.txt
 C:\Users\Gustavo Felicetti\Desktop\unoesc\Programação 1\atividades\Aula05\Aula05Projeto\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
 C:\Users\Gustavo Felicetti\Desktop\unoesc\Programação 1\atividades\Aula05\Aula05Projeto\wwwroot\lib\bootstrap\dist\js\bootstrap.js
 C:\Users\Gustavo Felicetti\Desktop\unoesc\Programação 1\atividades\Aula05\Aula05Projeto\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
@@ -32,6 +33,7 @@ C:\Users\Gustavo Felicetti\Desktop\unoesc\Programação 1\atividades\Aula05\Aula
 C:\Users\Gustavo Felicetti\Desktop\unoesc\Programação 1\atividades\Aula05\Aula05Projeto\wwwroot\lib\jquery\dist\jquery.slim.js
 C:\Users\Gustavo Felicetti\Desktop\unoesc\Programação 1\atividades\Aula05\Aula05Projeto\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
 C:\Users\Gustavo Felicetti\Desktop\unoesc\Programação 1\atividades\Aula05\Aula05Projeto\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+C:\Users\Gustavo Felicetti\Desktop\unoesc\Programação 1\atividades\Aula05\Aula05Projeto\wwwroot\TextFiles\FixedFile.txt
 C:\Users\Gustavo Felicetti\Desktop\unoesc\Programação 1\atividades\Aula05\Aula05Projeto\wwwroot\js\site.js
 C:\Users\Gustavo Felicetti\Desktop\unoesc\Programação 1\atividades\Aula05\Aula05Projeto\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
 C:\Users\Gustavo Felicetti\Desktop\unoesc\Programação 1\atividades\Aula05\Aula05Projeto\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
@@ -125,3 +127,5 @@ wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
 wwwroot\TextFiles\Delimitado.txt
+wwwroot\TextFiles\FixedFile.txt
+wwwroot\TextFiles\FixedFileCustomer.txt

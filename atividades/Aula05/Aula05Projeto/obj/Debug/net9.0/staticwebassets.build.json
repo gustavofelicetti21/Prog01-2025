@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "caRh1uYStgYf1o7dIBKrfhBldJN108hcV493U2Jk5Ms=",
+  "Hash": "G2qga5A+9j4ta7QHnI3shgT8l84r4iFFdSn5N5mwKjA=",
   "Source": "Aula05Projeto",
   "BasePath": "_content/Aula05Projeto",
   "Mode": "Default",
@@ -16,6 +16,27 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\obj\\Debug\\net9.0\\compressed\\0919v2zfqh-o0ke6eckkm.gz",
+      "SourceId": "Aula05Projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Aula05Projeto",
+      "RelativePath": "TextFiles/FixedFileCustomer#[.{fingerprint=o0ke6eckkm}]?.txt.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\wwwroot\\TextFiles\\FixedFileCustomer.txt",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "khxg4gwcte",
+      "Integrity": "eC6hkXPGPWuKvyD8/f6/fjC1i1Ss9w9+uQMlra4hfGQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\wwwroot\\TextFiles\\FixedFileCustomer.txt"
+    },
     {
       "Identity": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\obj\\Debug\\net9.0\\compressed\\20hn26h0jo-ub07r2b239.gz",
       "SourceId": "Aula05Projeto",
@@ -731,6 +752,27 @@
       "OriginalItemSpec": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
+      "Identity": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\obj\\Debug\\net9.0\\compressed\\kmpcpk58mt-rqjkvajnkf.gz",
+      "SourceId": "Aula05Projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Aula05Projeto",
+      "RelativePath": "TextFiles/FixedFile#[.{fingerprint=rqjkvajnkf}]?.txt.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\wwwroot\\TextFiles\\FixedFile.txt",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "nu45jgn2bt",
+      "Integrity": "MTX1Qw2UzwLHvJt68SHfyfkHu4YoTJEeccoM6q+SysQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\wwwroot\\TextFiles\\FixedFile.txt"
+    },
+    {
       "Identity": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\obj\\Debug\\net9.0\\compressed\\kn4nhmebqs-xtxxf3hu2r.gz",
       "SourceId": "Aula05Projeto",
       "SourceType": "Discovered",
@@ -941,12 +983,12 @@
       "OriginalItemSpec": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\obj\\Debug\\net9.0\\compressed\\q1vmr33l0z-wrjaohyfws.gz",
+      "Identity": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\obj\\Debug\\net9.0\\compressed\\q1vmr33l0z-0p3dpm7cj3.gz",
       "SourceId": "Aula05Projeto",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Aula05Projeto",
-      "RelativePath": "TextFiles/Delimitado#[.{fingerprint=wrjaohyfws}]?.txt.gz",
+      "RelativePath": "TextFiles/Delimitado#[.{fingerprint=0p3dpm7cj3}]?.txt.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -955,8 +997,8 @@
       "RelatedAsset": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\wwwroot\\TextFiles\\Delimitado.txt",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ugzbcsw9ca",
-      "Integrity": "TkS81HAGaw1KNE9AEQqYgzrBZIfG+ynmWXXad8FNSQA=",
+      "Fingerprint": "46bznf5os0",
+      "Integrity": "tHl8Fylt6Gf2FWK1P5PHnwhv+MRYTvqRcgzi2qJ8XgA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\wwwroot\\TextFiles\\Delimitado.txt"
@@ -2761,11 +2803,53 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "wrjaohyfws",
-      "Integrity": "nF5plQWCwBgp9H2tMg81AdsBGonLuKQAqtgC2nPILkM=",
+      "Fingerprint": "0p3dpm7cj3",
+      "Integrity": "DGsY6LWUoSuzWyGWsoCCTlzPWIkuF11XGfZqO3ZpcCw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\TextFiles\\Delimitado.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\wwwroot\\TextFiles\\FixedFile.txt",
+      "SourceId": "Aula05Projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\wwwroot\\",
+      "BasePath": "_content/Aula05Projeto",
+      "RelativePath": "TextFiles/FixedFile#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rqjkvajnkf",
+      "Integrity": "DYj2ID1skAKci5+6yoWRpNn78t1mwJeFy8Suhsl1fgQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TextFiles\\FixedFile.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\wwwroot\\TextFiles\\FixedFileCustomer.txt",
+      "SourceId": "Aula05Projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\wwwroot\\",
+      "BasePath": "_content/Aula05Projeto",
+      "RelativePath": "TextFiles/FixedFileCustomer#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o0ke6eckkm",
+      "Integrity": "2NqGR6dNwmMb6liqJOwiVlFqpD9OeHulqFoYGb7fDlQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TextFiles\\FixedFileCustomer.txt"
     }
   ],
   "Endpoints": [
@@ -21924,13 +22008,13 @@
       ]
     },
     {
-      "Route": "TextFiles/Delimitado.txt",
-      "AssetFile": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\obj\\Debug\\net9.0\\compressed\\q1vmr33l0z-wrjaohyfws.gz",
+      "Route": "TextFiles/Delimitado.0p3dpm7cj3.txt",
+      "AssetFile": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\obj\\Debug\\net9.0\\compressed\\q1vmr33l0z-0p3dpm7cj3.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.004784688995"
+          "Quality": "0.005102040816"
         }
       ],
       "ResponseHeaders": [
@@ -21940,19 +22024,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "208"
+          "Value": "195"
         },
         {
           "Name": "ETag",
-          "Value": "\"TkS81HAGaw1KNE9AEQqYgzrBZIfG+ynmWXXad8FNSQA=\""
+          "Value": "\"tHl8Fylt6Gf2FWK1P5PHnwhv+MRYTvqRcgzi2qJ8XgA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 03 Jun 2025 00:00:17 GMT"
+          "Value": "Tue, 10 Jun 2025 00:16:17 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -21968,18 +22052,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"nF5plQWCwBgp9H2tMg81AdsBGonLuKQAqtgC2nPILkM=\""
+          "Value": "W/\"DGsY6LWUoSuzWyGWsoCCTlzPWIkuF11XGfZqO3ZpcCw=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "0p3dpm7cj3"
+        },
+        {
+          "Name": "label",
+          "Value": "TextFiles/Delimitado.txt"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-nF5plQWCwBgp9H2tMg81AdsBGonLuKQAqtgC2nPILkM="
+          "Value": "sha256-DGsY6LWUoSuzWyGWsoCCTlzPWIkuF11XGfZqO3ZpcCw="
         }
       ]
     },
     {
-      "Route": "TextFiles/Delimitado.txt",
+      "Route": "TextFiles/Delimitado.0p3dpm7cj3.txt",
       "AssetFile": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\wwwroot\\TextFiles\\Delimitado.txt",
       "Selectors": [],
       "ResponseHeaders": [
@@ -21989,7 +22081,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4920"
+          "Value": "3938"
         },
         {
           "Name": "Content-Type",
@@ -21997,121 +22089,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nF5plQWCwBgp9H2tMg81AdsBGonLuKQAqtgC2nPILkM=\""
+          "Value": "\"DGsY6LWUoSuzWyGWsoCCTlzPWIkuF11XGfZqO3ZpcCw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 03 Jun 2025 00:00:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-nF5plQWCwBgp9H2tMg81AdsBGonLuKQAqtgC2nPILkM="
-        }
-      ]
-    },
-    {
-      "Route": "TextFiles/Delimitado.txt.gz",
-      "AssetFile": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\obj\\Debug\\net9.0\\compressed\\q1vmr33l0z-wrjaohyfws.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "208"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"TkS81HAGaw1KNE9AEQqYgzrBZIfG+ynmWXXad8FNSQA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 03 Jun 2025 00:00:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-TkS81HAGaw1KNE9AEQqYgzrBZIfG+ynmWXXad8FNSQA="
-        }
-      ]
-    },
-    {
-      "Route": "TextFiles/Delimitado.wrjaohyfws.txt",
-      "AssetFile": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\obj\\Debug\\net9.0\\compressed\\q1vmr33l0z-wrjaohyfws.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.004784688995"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "208"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"TkS81HAGaw1KNE9AEQqYgzrBZIfG+ynmWXXad8FNSQA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 03 Jun 2025 00:00:17 GMT"
+          "Value": "Tue, 10 Jun 2025 00:16:17 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"nF5plQWCwBgp9H2tMg81AdsBGonLuKQAqtgC2nPILkM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wrjaohyfws"
+          "Value": "0p3dpm7cj3"
         },
         {
           "Name": "label",
@@ -22119,13 +22111,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-nF5plQWCwBgp9H2tMg81AdsBGonLuKQAqtgC2nPILkM="
+          "Value": "sha256-DGsY6LWUoSuzWyGWsoCCTlzPWIkuF11XGfZqO3ZpcCw="
         }
       ]
     },
     {
-      "Route": "TextFiles/Delimitado.wrjaohyfws.txt",
-      "AssetFile": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\wwwroot\\TextFiles\\Delimitado.txt",
+      "Route": "TextFiles/Delimitado.0p3dpm7cj3.txt.gz",
+      "AssetFile": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\obj\\Debug\\net9.0\\compressed\\q1vmr33l0z-0p3dpm7cj3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22134,7 +22126,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4920"
+          "Value": "195"
         },
         {
           "Name": "Content-Type",
@@ -22142,56 +22134,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nF5plQWCwBgp9H2tMg81AdsBGonLuKQAqtgC2nPILkM=\""
+          "Value": "\"tHl8Fylt6Gf2FWK1P5PHnwhv+MRYTvqRcgzi2qJ8XgA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 03 Jun 2025 00:00:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "wrjaohyfws"
-        },
-        {
-          "Name": "label",
-          "Value": "TextFiles/Delimitado.txt"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-nF5plQWCwBgp9H2tMg81AdsBGonLuKQAqtgC2nPILkM="
-        }
-      ]
-    },
-    {
-      "Route": "TextFiles/Delimitado.wrjaohyfws.txt.gz",
-      "AssetFile": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\obj\\Debug\\net9.0\\compressed\\q1vmr33l0z-wrjaohyfws.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "208"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"TkS81HAGaw1KNE9AEQqYgzrBZIfG+ynmWXXad8FNSQA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 03 Jun 2025 00:00:17 GMT"
+          "Value": "Tue, 10 Jun 2025 00:16:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22209,7 +22156,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wrjaohyfws"
+          "Value": "0p3dpm7cj3"
         },
         {
           "Name": "label",
@@ -22217,7 +22164,740 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-TkS81HAGaw1KNE9AEQqYgzrBZIfG+ynmWXXad8FNSQA="
+          "Value": "sha256-tHl8Fylt6Gf2FWK1P5PHnwhv+MRYTvqRcgzi2qJ8XgA="
+        }
+      ]
+    },
+    {
+      "Route": "TextFiles/Delimitado.txt",
+      "AssetFile": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\obj\\Debug\\net9.0\\compressed\\q1vmr33l0z-0p3dpm7cj3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.005102040816"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "195"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tHl8Fylt6Gf2FWK1P5PHnwhv+MRYTvqRcgzi2qJ8XgA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 00:16:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"DGsY6LWUoSuzWyGWsoCCTlzPWIkuF11XGfZqO3ZpcCw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DGsY6LWUoSuzWyGWsoCCTlzPWIkuF11XGfZqO3ZpcCw="
+        }
+      ]
+    },
+    {
+      "Route": "TextFiles/Delimitado.txt",
+      "AssetFile": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\wwwroot\\TextFiles\\Delimitado.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3938"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DGsY6LWUoSuzWyGWsoCCTlzPWIkuF11XGfZqO3ZpcCw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 00:16:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DGsY6LWUoSuzWyGWsoCCTlzPWIkuF11XGfZqO3ZpcCw="
+        }
+      ]
+    },
+    {
+      "Route": "TextFiles/Delimitado.txt.gz",
+      "AssetFile": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\obj\\Debug\\net9.0\\compressed\\q1vmr33l0z-0p3dpm7cj3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "195"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tHl8Fylt6Gf2FWK1P5PHnwhv+MRYTvqRcgzi2qJ8XgA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 00:16:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tHl8Fylt6Gf2FWK1P5PHnwhv+MRYTvqRcgzi2qJ8XgA="
+        }
+      ]
+    },
+    {
+      "Route": "TextFiles/FixedFile.rqjkvajnkf.txt",
+      "AssetFile": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\obj\\Debug\\net9.0\\compressed\\kmpcpk58mt-rqjkvajnkf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.008620689655"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "115"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MTX1Qw2UzwLHvJt68SHfyfkHu4YoTJEeccoM6q+SysQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 00:52:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"DYj2ID1skAKci5+6yoWRpNn78t1mwJeFy8Suhsl1fgQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rqjkvajnkf"
+        },
+        {
+          "Name": "label",
+          "Value": "TextFiles/FixedFile.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DYj2ID1skAKci5+6yoWRpNn78t1mwJeFy8Suhsl1fgQ="
+        }
+      ]
+    },
+    {
+      "Route": "TextFiles/FixedFile.rqjkvajnkf.txt",
+      "AssetFile": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\wwwroot\\TextFiles\\FixedFile.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "671"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DYj2ID1skAKci5+6yoWRpNn78t1mwJeFy8Suhsl1fgQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 00:52:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rqjkvajnkf"
+        },
+        {
+          "Name": "label",
+          "Value": "TextFiles/FixedFile.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DYj2ID1skAKci5+6yoWRpNn78t1mwJeFy8Suhsl1fgQ="
+        }
+      ]
+    },
+    {
+      "Route": "TextFiles/FixedFile.rqjkvajnkf.txt.gz",
+      "AssetFile": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\obj\\Debug\\net9.0\\compressed\\kmpcpk58mt-rqjkvajnkf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "115"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MTX1Qw2UzwLHvJt68SHfyfkHu4YoTJEeccoM6q+SysQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 00:52:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rqjkvajnkf"
+        },
+        {
+          "Name": "label",
+          "Value": "TextFiles/FixedFile.txt.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MTX1Qw2UzwLHvJt68SHfyfkHu4YoTJEeccoM6q+SysQ="
+        }
+      ]
+    },
+    {
+      "Route": "TextFiles/FixedFile.txt",
+      "AssetFile": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\obj\\Debug\\net9.0\\compressed\\kmpcpk58mt-rqjkvajnkf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.008620689655"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "115"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MTX1Qw2UzwLHvJt68SHfyfkHu4YoTJEeccoM6q+SysQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 00:52:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"DYj2ID1skAKci5+6yoWRpNn78t1mwJeFy8Suhsl1fgQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DYj2ID1skAKci5+6yoWRpNn78t1mwJeFy8Suhsl1fgQ="
+        }
+      ]
+    },
+    {
+      "Route": "TextFiles/FixedFile.txt",
+      "AssetFile": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\wwwroot\\TextFiles\\FixedFile.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "671"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DYj2ID1skAKci5+6yoWRpNn78t1mwJeFy8Suhsl1fgQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 00:52:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DYj2ID1skAKci5+6yoWRpNn78t1mwJeFy8Suhsl1fgQ="
+        }
+      ]
+    },
+    {
+      "Route": "TextFiles/FixedFile.txt.gz",
+      "AssetFile": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\obj\\Debug\\net9.0\\compressed\\kmpcpk58mt-rqjkvajnkf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "115"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MTX1Qw2UzwLHvJt68SHfyfkHu4YoTJEeccoM6q+SysQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 00:52:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MTX1Qw2UzwLHvJt68SHfyfkHu4YoTJEeccoM6q+SysQ="
+        }
+      ]
+    },
+    {
+      "Route": "TextFiles/FixedFileCustomer.o0ke6eckkm.txt",
+      "AssetFile": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\obj\\Debug\\net9.0\\compressed\\0919v2zfqh-o0ke6eckkm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.008474576271"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "117"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eC6hkXPGPWuKvyD8/f6/fjC1i1Ss9w9+uQMlra4hfGQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 00:56:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"2NqGR6dNwmMb6liqJOwiVlFqpD9OeHulqFoYGb7fDlQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o0ke6eckkm"
+        },
+        {
+          "Name": "label",
+          "Value": "TextFiles/FixedFileCustomer.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2NqGR6dNwmMb6liqJOwiVlFqpD9OeHulqFoYGb7fDlQ="
+        }
+      ]
+    },
+    {
+      "Route": "TextFiles/FixedFileCustomer.o0ke6eckkm.txt",
+      "AssetFile": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\wwwroot\\TextFiles\\FixedFileCustomer.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "681"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2NqGR6dNwmMb6liqJOwiVlFqpD9OeHulqFoYGb7fDlQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 00:56:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o0ke6eckkm"
+        },
+        {
+          "Name": "label",
+          "Value": "TextFiles/FixedFileCustomer.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2NqGR6dNwmMb6liqJOwiVlFqpD9OeHulqFoYGb7fDlQ="
+        }
+      ]
+    },
+    {
+      "Route": "TextFiles/FixedFileCustomer.o0ke6eckkm.txt.gz",
+      "AssetFile": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\obj\\Debug\\net9.0\\compressed\\0919v2zfqh-o0ke6eckkm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "117"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eC6hkXPGPWuKvyD8/f6/fjC1i1Ss9w9+uQMlra4hfGQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 00:56:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o0ke6eckkm"
+        },
+        {
+          "Name": "label",
+          "Value": "TextFiles/FixedFileCustomer.txt.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eC6hkXPGPWuKvyD8/f6/fjC1i1Ss9w9+uQMlra4hfGQ="
+        }
+      ]
+    },
+    {
+      "Route": "TextFiles/FixedFileCustomer.txt",
+      "AssetFile": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\obj\\Debug\\net9.0\\compressed\\0919v2zfqh-o0ke6eckkm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.008474576271"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "117"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eC6hkXPGPWuKvyD8/f6/fjC1i1Ss9w9+uQMlra4hfGQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 00:56:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"2NqGR6dNwmMb6liqJOwiVlFqpD9OeHulqFoYGb7fDlQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2NqGR6dNwmMb6liqJOwiVlFqpD9OeHulqFoYGb7fDlQ="
+        }
+      ]
+    },
+    {
+      "Route": "TextFiles/FixedFileCustomer.txt",
+      "AssetFile": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\wwwroot\\TextFiles\\FixedFileCustomer.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "681"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2NqGR6dNwmMb6liqJOwiVlFqpD9OeHulqFoYGb7fDlQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 00:56:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2NqGR6dNwmMb6liqJOwiVlFqpD9OeHulqFoYGb7fDlQ="
+        }
+      ]
+    },
+    {
+      "Route": "TextFiles/FixedFileCustomer.txt.gz",
+      "AssetFile": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\obj\\Debug\\net9.0\\compressed\\0919v2zfqh-o0ke6eckkm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "117"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eC6hkXPGPWuKvyD8/f6/fjC1i1Ss9w9+uQMlra4hfGQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 00:56:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eC6hkXPGPWuKvyD8/f6/fjC1i1Ss9w9+uQMlra4hfGQ="
         }
       ]
     }

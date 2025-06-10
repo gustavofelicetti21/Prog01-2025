@@ -9,6 +9,14 @@
       "PackagePath": "staticwebassets\\TextFiles\\Delimitado.txt"
     },
     {
+      "Id": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\wwwroot\\TextFiles\\FixedFile.txt",
+      "PackagePath": "staticwebassets\\TextFiles\\FixedFile.txt"
+    },
+    {
+      "Id": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\wwwroot\\TextFiles\\FixedFileCustomer.txt",
+      "PackagePath": "staticwebassets\\TextFiles\\FixedFileCustomer.txt"
+    },
+    {
       "Id": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programação 1\\atividades\\Aula05\\Aula05Projeto\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

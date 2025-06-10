@@ -20,7 +20,7 @@ namespace Aula05Projeto.Controllers
         public IActionResult Index()
         {
             List<Product> product =
-                _productRepository.RetriveAll();
+                _productRepository.RetrieveAll();
             return View(product);
         }
 
@@ -29,7 +29,7 @@ namespace Aula05Projeto.Controllers
         {
             _productRepository.Save(p);
 
-            List<Product> products = _productRepository.RetriveAll();
+            List<Product> products = _productRepository.RetrieveAll();
 
             return View("Index", products);
         }
@@ -55,27 +55,126 @@ namespace Aula05Projeto.Controllers
                                 ";
             }
 
+            SaveFile(fileContent, "DelimitatedFileProduct.txt");
+
+            return View();
+        }
+
+        public IActionResult ExportFixedFile()
+        {
+            string fileContent = string.Empty;
+            foreach (Product p in CustomerData.Products)
+            {
+                fileContent +=
+                    String.Format("{0:5}", p.Id) +
+                    String.Format("{0:32}", p.ProductName) +
+                    String.Format("{0:128}", p.Description) +
+                    String.Format("{0:10}", p.CurrentPrice) +
+                    "\n";
+            }
+
+            SaveFile(fileContent, "FixedFileProduct.txt");
+
+            return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public IActionResult Delete(int? id)
+        {
+            if (id is null || id.Value <= 0)
+                return NotFound();
+
+            Product product = _productRepository.Retrieve(id.Value);
+
+            if (product == null)
+                return NotFound();
+
+            return View(product);
+        }
+
+        [HttpPost]
+        public IActionResult ConfirmDelete(int? id)
+        {
+            if (id is null || id <= 0)
+                return NotFound();
+
+            if (
+                !_productRepository.DeleteById(id.Value)
+            )
+                return NotFound();
+
+            return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public IActionResult GetUpdate(int? id)
+        {
+            if (id is null || id <= 0)
+                return NotFound();
+
+            if (
+                !_productRepository.DeleteById(id.Value)
+            )
+                return NotFound();
+
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        public IActionResult Update(int? id, string productName, string description, float currentPrice)
+        {
+            if (id is null || id.Value <= 0)
+                return NotFound();
+
+            Product product = _productRepository.Retrieve(id.Value);
+
+            if (product == null)
+                return NotFound();
+
+            return View(product);
+        }
+
+        private bool SaveFile(string content, string fileName)
+        {
+            bool ret = true;
+
+            if (string.IsNullOrEmpty(content) || string.IsNullOrEmpty(fileName))
+                return false;
+
             var path = Path.Combine(
                 environment.WebRootPath,
                 "TextFiles"
             );
 
-            if (!System.IO.Directory.Exists(path))
+            try
             {
-                System.IO.Directory.CreateDirectory(path);
+                if (!System.IO.Directory.Exists(path))
+                    System.IO.Directory.CreateDirectory(path);
+
+                var filepath = Path.Combine(
+                    path,
+                    fileName
+                );
+
+                using (StreamWriter sw = System.IO.File.CreateText(filepath))
+                {
+                    sw.Write(content);
+                }
+            }
+            catch (IOException ioEx)
+            {
+                string msg = ioEx.Message;
+                ret = false;
+                //throw ioEx;
+            }
+            catch (Exception ex)
+            {
+                string msg = ex.Message;
+                ret = false;
             }
 
-            var filepath = Path.Combine(
-                path,
-                "Delimitado.txt"
-            );
 
-            using (StreamWriter sw = System.IO.File.CreateText(filepath))
-            {
-                sw.Write(fileContent);
-            }
-
-            return View();
+            return ret;
         }
     }
 }
