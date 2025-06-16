@@ -37,7 +37,7 @@ namespace Repository
         {
             Customer oldCustomer = Retrieve(newCustomer.Id);
             oldCustomer.Name = newCustomer.Name;
-            oldCustomer.WordAddres = newCustomer.WordAddres;
+            oldCustomer.WorkAddres = newCustomer.WorkAddres;
             oldCustomer.HomeAddres = newCustomer.HomeAddres;
         }
 

@@ -122,6 +122,30 @@ namespace Aula05Projeto.Controllers
             return RedirectToAction("Index");
         }
 
+        [HttpGet]
+        public IActionResult Update(int? id)
+        {
+            if (id is null || id.Value <= 0)
+                return NotFound();
+
+            Customer customer = _customerRepository.Retrieve(id.Value);
+
+            if (customer == null)
+                return NotFound();
+
+            return View(customer);
+        }
+
+        [HttpPost]
+        public IActionResult PostUpdate(Customer c)
+        {
+            _customerRepository.Update(c);
+
+            List<Customer> customers = _customerRepository.RetrieveAll();
+
+            return View("Index", customers);
+        }
+
         private bool SaveFile(string content, string fileName)
         {
             bool ret = true;

@@ -1,26 +1,35 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programa\u00E7\u00E3o 1\\atividades\\Aula05\\Aula05Projeto\\",
+  "WorkspaceRootPath": "C:\\Users\\gustavo.felicetti\\Desktop\\Unoesc\\atividades\\Aula05\\Aula05Projeto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A721902F-A953-415B-AD1F-5A1795265804}|Aula05Projeto.csproj|c:\\users\\gustavo felicetti\\desktop\\unoesc\\programa\u00E7\u00E3o 1\\atividades\\aula05\\aula05projeto\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A721902F-A953-415B-AD1F-5A1795265804}|Aula05Projeto.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A721902F-A953-415B-AD1F-5A1795265804}|Aula05Projeto.csproj|c:\\users\\gustavo.felicetti\\desktop\\unoesc\\atividades\\aula05\\aula05projeto\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A721902F-A953-415B-AD1F-5A1795265804}|Aula05Projeto.csproj|solutionrelative:views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A721902F-A953-415B-AD1F-5A1795265804}|Aula05Projeto.csproj|c:\\users\\gustavo felicetti\\desktop\\unoesc\\programa\u00E7\u00E3o 1\\atividades\\aula05\\aula05projeto\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A721902F-A953-415B-AD1F-5A1795265804}|Aula05Projeto.csproj|c:\\users\\gustavo.felicetti\\desktop\\unoesc\\atividades\\aula05\\aula05projeto\\views\\customer\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A721902F-A953-415B-AD1F-5A1795265804}|Aula05Projeto.csproj|solutionrelative:views\\customer\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A721902F-A953-415B-AD1F-5A1795265804}|Aula05Projeto.csproj|c:\\users\\gustavo.felicetti\\desktop\\unoesc\\atividades\\aula05\\aula05projeto\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A721902F-A953-415B-AD1F-5A1795265804}|Aula05Projeto.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A721902F-A953-415B-AD1F-5A1795265804}|Aula05Projeto.csproj|c:\\users\\gustavo felicetti\\desktop\\unoesc\\programa\u00E7\u00E3o 1\\atividades\\aula05\\aula05projeto\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A721902F-A953-415B-AD1F-5A1795265804}|Aula05Projeto.csproj|solutionrelative:views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A721902F-A953-415B-AD1F-5A1795265804}|Aula05Projeto.csproj|c:\\users\\gustavo.felicetti\\desktop\\unoesc\\atividades\\aula05\\aula05projeto\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A721902F-A953-415B-AD1F-5A1795265804}|Aula05Projeto.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A721902F-A953-415B-AD1F-5A1795265804}|Aula05Projeto.csproj|c:\\users\\gustavo felicetti\\desktop\\unoesc\\programa\u00E7\u00E3o 1\\atividades\\aula05\\aula05projeto\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A721902F-A953-415B-AD1F-5A1795265804}|Aula05Projeto.csproj|c:\\users\\gustavo.felicetti\\desktop\\unoesc\\atividades\\aula05\\aula05projeto\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A721902F-A953-415B-AD1F-5A1795265804}|Aula05Projeto.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A721902F-A953-415B-AD1F-5A1795265804}|Aula05Projeto.csproj|c:\\users\\gustavo felicetti\\desktop\\unoesc\\programa\u00E7\u00E3o 1\\atividades\\aula05\\aula05projeto\\views\\customer\\exportdelimitatedfile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A721902F-A953-415B-AD1F-5A1795265804}|Aula05Projeto.csproj|solutionrelative:views\\customer\\exportdelimitatedfile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{416F60E4-3663-43C0-9805-D8437C945FFB}|..\\Repository\\Repository.csproj|c:\\users\\gustavo.felicetti\\desktop\\unoesc\\atividades\\aula05\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D1C5BF7-D31F-4394-AEBD-5268C7DFBF2D}|..\\Modelo\\Modelo.csproj|c:\\users\\gustavo.felicetti\\desktop\\unoesc\\atividades\\aula05\\modelo\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D1C5BF7-D31F-4394-AEBD-5268C7DFBF2D}|..\\Modelo\\Modelo.csproj|c:\\users\\gustavo.felicetti\\desktop\\unoesc\\atividades\\aula05\\modelo\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +39,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programa\u00E7\u00E3o 1\\atividades\\Aula05\\Aula05Projeto\\Views\\Product\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gustavo.felicetti\\Desktop\\Unoesc\\atividades\\Aula05\\Aula05Projeto\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programa\u00E7\u00E3o 1\\atividades\\Aula05\\Aula05Projeto\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gustavo.felicetti\\Desktop\\Unoesc\\atividades\\Aula05\\Aula05Projeto\\Views\\Product\\Index.cshtml",
               "RelativeToolTip": "Views\\Product\\Index.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACYAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwB4AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-10T00:59:10.421Z",
+              "WhenOpened": "2025-06-16T19:02:08.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo.felicetti\\Desktop\\Unoesc\\atividades\\Aula05\\Modelo\\Product.cs",
+              "RelativeDocumentMoniker": "..\\Modelo\\Product.cs",
+              "ToolTip": "C:\\Users\\gustavo.felicetti\\Desktop\\Unoesc\\atividades\\Aula05\\Modelo\\Product.cs",
+              "RelativeToolTip": "..\\Modelo\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T18:57:48.849Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programa\u00E7\u00E3o 1\\atividades\\Aula05\\Aula05Projeto\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programa\u00E7\u00E3o 1\\atividades\\Aula05\\Aula05Projeto\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAuwEUAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T00:57:32.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programa\u00E7\u00E3o 1\\atividades\\Aula05\\Aula05Projeto\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programa\u00E7\u00E3o 1\\atividades\\Aula05\\Aula05Projeto\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "Controllers\\CustomerController.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAQwF4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T00:50:56.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programa\u00E7\u00E3o 1\\atividades\\Aula05\\Aula05Projeto\\Views\\Customer\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Customer\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programa\u00E7\u00E3o 1\\atividades\\Aula05\\Aula05Projeto\\Views\\Customer\\Index.cshtml",
-              "RelativeToolTip": "Views\\Customer\\Index.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACIAAAAEAAAAAAAAAA==",
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\gustavo.felicetti\\Desktop\\Unoesc\\atividades\\Aula05\\Aula05Projeto\\Views\\Product\\Update.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Update.cshtml",
+              "ToolTip": "C:\\Users\\gustavo.felicetti\\Desktop\\Unoesc\\atividades\\Aula05\\Aula05Projeto\\Views\\Product\\Update.cshtml",
+              "RelativeToolTip": "Views\\Product\\Update.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-10T00:49:01.995Z",
+              "WhenOpened": "2025-06-16T18:57:44.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\gustavo.felicetti\\Desktop\\Unoesc\\atividades\\Aula05\\Aula05Projeto\\Views\\Customer\\Update.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customer\\Update.cshtml",
+              "ToolTip": "C:\\Users\\gustavo.felicetti\\Desktop\\Unoesc\\atividades\\Aula05\\Aula05Projeto\\Views\\Customer\\Update.cshtml",
+              "RelativeToolTip": "Views\\Customer\\Update.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T17:57:20.171Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ExportDelimitatedFile.cshtml",
-              "DocumentMoniker": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programa\u00E7\u00E3o 1\\atividades\\Aula05\\Aula05Projeto\\Views\\Customer\\ExportDelimitatedFile.cshtml",
-              "RelativeDocumentMoniker": "Views\\Customer\\ExportDelimitatedFile.cshtml",
-              "ToolTip": "C:\\Users\\Gustavo Felicetti\\Desktop\\unoesc\\Programa\u00E7\u00E3o 1\\atividades\\Aula05\\Aula05Projeto\\Views\\Customer\\ExportDelimitatedFile.cshtml",
-              "RelativeToolTip": "Views\\Customer\\ExportDelimitatedFile.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-10T00:14:11.445Z",
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo.felicetti\\Desktop\\Unoesc\\atividades\\Aula05\\Aula05Projeto\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\gustavo.felicetti\\Desktop\\Unoesc\\atividades\\Aula05\\Aula05Projeto\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAwJIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T17:57:07.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo.felicetti\\Desktop\\Unoesc\\atividades\\Aula05\\Aula05Projeto\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\gustavo.felicetti\\Desktop\\Unoesc\\atividades\\Aula05\\Aula05Projeto\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAAAH0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T19:00:28.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo.felicetti\\Desktop\\Unoesc\\atividades\\Aula05\\Repository\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repository\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\gustavo.felicetti\\Desktop\\Unoesc\\atividades\\Aula05\\Repository\\CustomerRepository.cs",
+              "RelativeToolTip": "..\\Repository\\CustomerRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T18:03:09.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo.felicetti\\Desktop\\Unoesc\\atividades\\Aula05\\Modelo\\Customer.cs",
+              "RelativeDocumentMoniker": "..\\Modelo\\Customer.cs",
+              "ToolTip": "C:\\Users\\gustavo.felicetti\\Desktop\\Unoesc\\atividades\\Aula05\\Modelo\\Customer.cs",
+              "RelativeToolTip": "..\\Modelo\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T17:59:18.306Z",
               "EditorCaption": ""
             }
           ]

@@ -107,21 +107,7 @@ namespace Aula05Projeto.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetUpdate(int? id)
-        {
-            if (id is null || id <= 0)
-                return NotFound();
-
-            if (
-                !_productRepository.DeleteById(id.Value)
-            )
-                return NotFound();
-
-            return RedirectToAction("Index");
-        }
-
-        [HttpPost]
-        public IActionResult Update(int? id, string productName, string description, float currentPrice)
+        public IActionResult Update(int? id)
         {
             if (id is null || id.Value <= 0)
                 return NotFound();
@@ -132,6 +118,16 @@ namespace Aula05Projeto.Controllers
                 return NotFound();
 
             return View(product);
+        }
+
+        [HttpPost]
+        public IActionResult PostUpdate(Product p)
+        {
+            _productRepository.Update(p);
+
+            List<Product> product = _productRepository.RetrieveAll();
+
+            return View("Index", product);
         }
 
         private bool SaveFile(string content, string fileName)
