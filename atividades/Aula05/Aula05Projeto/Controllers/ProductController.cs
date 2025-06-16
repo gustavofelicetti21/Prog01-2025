@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Modelo;
 using Repository;
+using System.Text;
 
 namespace Aula05Projeto.Controllers
 {
@@ -51,7 +52,6 @@ namespace Aula05Projeto.Controllers
                                     {p.ProductName};
                                     {p.Description};
                                     R$ {p.CurrentPrice}
-                                    \n
                                 ";
             }
 
@@ -130,6 +130,12 @@ namespace Aula05Projeto.Controllers
             return View("Index", product);
         }
 
+        [HttpGet]
+        public IActionResult Import()
+        {
+            return View();
+        }
+
         private bool SaveFile(string content, string fileName)
         {
             bool ret = true;
@@ -171,6 +177,47 @@ namespace Aula05Projeto.Controllers
 
 
             return ret;
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ImportDelimitedFile(IFormFile file)
+        {
+            if (file == null)
+            {
+                return NotFound();
+            }
+
+            try
+            {
+                using (var stream = new MemoryStream())
+                {
+                    await file.CopyToAsync(stream);
+                    stream.Seek(0, SeekOrigin.Begin);
+
+                    int lineCount = 0;
+                    using (var reader = new StreamReader(stream))
+                    {
+                        string line;
+                        while ((line = await reader.ReadLineAsync()) != null) // Usar ReadLineAsync para async
+                        {
+                            lineCount++;
+                        }
+                    }
+
+                    for (int i = 0; i < lineCount; i++)
+                    {
+
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Erro ao ler o arquivo: {ex.Message}");
+            }
+
+            List<Product> products = _productRepository.RetrieveAll();
+
+            return View("Index", products);
         }
     }
 }
