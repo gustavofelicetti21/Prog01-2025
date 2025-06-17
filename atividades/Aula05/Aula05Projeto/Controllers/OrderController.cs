@@ -1,5 +1,6 @@
 ﻿using Aula05Projeto.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Modelo;
 using Repository;
 
 namespace Aula05Projeto.Controllers
@@ -29,6 +30,20 @@ namespace Aula05Projeto.Controllers
         {
             OrderViewModel viewModel = new();
             viewModel.Customers = _customerRepository.RetrieveAll();
+
+            var products = _productRepository.RetrieveAll();
+            List<SelectedItem> items = [];
+            foreach (var item in products)
+            {
+                items.Add(new SelectedItem()
+                {
+                    OrderItem = new()
+                    {
+                        Product = product;
+                    }
+                });
+            }
+            viewModel.SelectedItems = items;
 
             return View(viewModel);
         }

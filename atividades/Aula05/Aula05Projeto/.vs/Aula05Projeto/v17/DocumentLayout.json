@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Gustavo Felicetti\\Desktop\\Unoesc\\Prog 1\\atividades\\Aula05\\Aula05Projeto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A721902F-A953-415B-AD1F-5A1795265804}|Aula05Projeto.csproj|c:\\users\\gustavo felicetti\\desktop\\unoesc\\prog 1\\atividades\\aula05\\aula05projeto\\viewmodels\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A721902F-A953-415B-AD1F-5A1795265804}|Aula05Projeto.csproj|solutionrelative:viewmodels\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A721902F-A953-415B-AD1F-5A1795265804}|Aula05Projeto.csproj|c:\\users\\gustavo felicetti\\desktop\\unoesc\\prog 1\\atividades\\aula05\\aula05projeto\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A721902F-A953-415B-AD1F-5A1795265804}|Aula05Projeto.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -34,13 +30,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Gustavo Felicetti\\Desktop\\Unoesc\\Prog 1\\atividades\\Aula05\\Aula05Projeto\\Views\\Order\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Order\\Create.cshtml",
               "ToolTip": "C:\\Users\\Gustavo Felicetti\\Desktop\\Unoesc\\Prog 1\\atividades\\Aula05\\Aula05Projeto\\Views\\Order\\Create.cshtml",
               "RelativeToolTip": "Views\\Order\\Create.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAABHAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-16T23:34:47.9Z",
               "EditorCaption": ""
@@ -48,32 +44,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OrderViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Gustavo Felicetti\\Desktop\\Unoesc\\Prog 1\\atividades\\Aula05\\Aula05Projeto\\ViewModels\\OrderViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\OrderViewModel.cs",
-              "ToolTip": "C:\\Users\\Gustavo Felicetti\\Desktop\\Unoesc\\Prog 1\\atividades\\Aula05\\Aula05Projeto\\ViewModels\\OrderViewModel.cs",
-              "RelativeToolTip": "ViewModels\\OrderViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T23:10:39.102Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Users\\Gustavo Felicetti\\Desktop\\Unoesc\\Prog 1\\atividades\\Aula05\\Aula05Projeto\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
               "ToolTip": "C:\\Users\\Gustavo Felicetti\\Desktop\\Unoesc\\Prog 1\\atividades\\Aula05\\Aula05Projeto\\Controllers\\OrderController.cs",
               "RelativeToolTip": "Controllers\\OrderController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwA4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAcwC0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-16T22:55:19.086Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Gustavo Felicetti\\Desktop\\Unoesc\\Prog 1\\atividades\\Aula05\\Aula05Projeto\\Views\\Order\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Order\\Index.cshtml",
@@ -81,12 +64,11 @@
               "RelativeToolTip": "Views\\Order\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-16T23:44:33.323Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T23:44:33.323Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Gustavo Felicetti\\Desktop\\Unoesc\\Prog 1\\atividades\\Aula05\\Aula05Projeto\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -94,8 +76,7 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAAACsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-16T23:44:20.231Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-16T23:44:20.231Z"
             }
           ]
         }
