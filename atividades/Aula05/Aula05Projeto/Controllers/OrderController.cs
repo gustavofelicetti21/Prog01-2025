@@ -33,19 +33,28 @@ namespace Aula05Projeto.Controllers
 
             var products = _productRepository.RetrieveAll();
             List<SelectedItem> items = [];
-            foreach (var item in products)
+            foreach (var product in products)
             {
                 items.Add(new SelectedItem()
                 {
                     OrderItem = new()
                     {
-                        Product = product;
+                        Product = product
                     }
                 });
             }
             viewModel.SelectedItems = items;
 
             return View(viewModel);
+        }
+
+        [HttpPost]
+        public IActionResult Create(OrderViewModel viewModel)
+        {
+            _orderRepository.Save(viewModel);
+
+
+            return View("Index");
         }
     }
 }
