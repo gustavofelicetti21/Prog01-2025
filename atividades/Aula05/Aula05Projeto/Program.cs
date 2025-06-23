@@ -51,6 +51,16 @@ static void FillCostumerData()
                 PostalCode = "89650-000",
                 Street1 = "Rua da minha casa",
                 Street2 = "Sua casa"
+            },
+            WorkAddres = new Address()
+            {
+                AddressType = "Predio",
+                City = "Videira",
+                Country = "HU3HU3BR",
+                State = "SC",
+                PostalCode = "89650-001",
+                Street1 = "Rua do meu trabalho",
+                Street2 = "Seu trabalho"
             }
         };
 

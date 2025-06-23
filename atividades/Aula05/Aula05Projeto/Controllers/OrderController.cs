@@ -47,12 +47,33 @@ namespace Aula05Projeto.Controllers
 
             return View(viewModel);
         }
-
         [HttpPost]
-        public IActionResult Create(OrderViewModel viewModel)
+        public IActionResult Create(OrderViewModel model)
         {
-            _orderRepository.Save(viewModel);
+            Order order = new();
+            order.Customer = _customerRepository.Retrieve(model.CustomerId!.Value);
+            order.OrderDate = DateTime.Now;
 
+            int count = 1;
+            foreach (var item in model.SelectedItems!)
+            {
+                if (item.IsSelected)
+                {
+                    order.OrderItems.Add(
+                        new OrderItem()
+                        {
+                            Id = count,
+                            Product = _productRepository.Retrieve(item.OrderItem.Product!.Id),
+                            Quantity = item.OrderItem.Quantity,
+                            PurchasePrice = item.OrderItem.PurchasePrice
+                        }
+                    );
+
+                    count++;
+                }
+            }
+
+            _orderRepository.Save(order);
 
             return View("Index");
         }

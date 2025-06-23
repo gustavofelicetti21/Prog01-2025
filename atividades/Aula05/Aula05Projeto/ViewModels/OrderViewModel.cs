@@ -11,7 +11,7 @@ namespace Aula05Projeto.ViewModels
 
     public class SelectedItem
     {
-        public bool? IsSelected { get; set; } = false;
+        public bool IsSelected { get; set; } = false;
         public OrderItem OrderItem { get; set; } = null!;
     }
 }
