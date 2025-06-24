@@ -15,7 +15,7 @@
                     <select type="text" asp-for="@Model.CustomerId">
                         @foreach (var c in Model.Customers)
                         {
-                            <option value"c.Id">@c.Name</option>
+                            <option value="@c.Id">@c.Name</option>
                         }
                     </select>
                 </div>
@@ -38,22 +38,24 @@
                 <hr class="mt-4 mb-3"/>
                 @for (int i=0; i < Model.SelectedItems!.Count; i++)
                 {
-                    var item = Model.SelectedItems[i];
                     <div class="col-2">
-                        <input type="checkbox" aps-for="@item.IsSelected" />
+                        <input type="checkbox" class="form-check-input" asp-for="@Model.SelectedItems[i].IsSelected" />
+                        <input type="hidden" asp-for="@Model.SelectedItems[i].OrderItem" />
                     </div>
                     <div class="col-4">
-                        <input type="hidden" aps-for="@item.OrderItem.Product!.Id" />
-                        <span>@item.OrderItem.Product!.ProductName</span>
+                        <input type="hidden" asp-for="@Model.SelectedItems[i].OrderItem.Product!.Id" />
+                        <span>@Model.SelectedItems[i].OrderItem.Product!.ProductName</span>
                     </div>
                     <div class="col-2">
-                        <input type="number" asp-for="@item.OrderItem.Quantity" class="d-block w-100"/>
+                        <input type="number" asp-for="@Model.SelectedItems[i].OrderItem.Quantity" />
                     </div>
                     <div class="col-2">
-                        <span>@string.Format("{0:C}", item.OrderItem.Product!.CurrentPrice)</span>
+                        <span>
+                            @string.Format("{0:C}", Model.SelectedItems[i]!.OrderItem!.Product!.CurrentPrice)
+                        </span>
                     </div>
                     <div class="col-2">
-                        <input asp-for="@item.OrderItem.PurchasePrice" class="d-block w-100" />
+                        <input type="number" asp-for="@Model.SelectedItems[i].OrderItem.PurchasePrice" />
                     </div>
                     <hr class="my-3"/>
                 }

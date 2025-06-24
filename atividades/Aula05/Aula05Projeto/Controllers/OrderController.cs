@@ -47,11 +47,13 @@ namespace Aula05Projeto.Controllers
 
             return View(viewModel);
         }
+
         [HttpPost]
         public IActionResult Create(OrderViewModel model)
         {
-            Order order = new();
-            order.Customer = _customerRepository.Retrieve(model.CustomerId!.Value);
+            Order order = new Order();
+            order.Customer =
+                _customerRepository.Retrieve(model.CustomerId!.Value);
             order.OrderDate = DateTime.Now;
 
             int count = 1;
@@ -59,23 +61,23 @@ namespace Aula05Projeto.Controllers
             {
                 if (item.IsSelected)
                 {
-                    order.OrderItems.Add(
+                    order.OrderItems!.Add(
                         new OrderItem()
                         {
                             Id = count,
-                            Product = _productRepository.Retrieve(item.OrderItem.Product!.Id),
+                            Product = _productRepository
+                                .Retrieve(item.OrderItem.Product!.Id),
                             Quantity = item.OrderItem.Quantity,
                             PurchasePrice = item.OrderItem.PurchasePrice
                         }
                     );
-
                     count++;
                 }
             }
 
             _orderRepository.Save(order);
 
-            return View("Index");
+            return RedirectToAction("Index");
         }
     }
 }
