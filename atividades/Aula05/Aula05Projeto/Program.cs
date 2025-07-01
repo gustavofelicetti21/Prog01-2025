@@ -32,6 +32,8 @@ FillCostumerData();
 
 FillProductData();
 
+FillOrderData();
+
 app.Run();
 
 static void FillCostumerData()
@@ -82,4 +84,59 @@ static void FillProductData()
 
         CustomerData.Products.Add(product);
     }
+}
+
+static void FillOrderData()
+{
+    var customer1 = CustomerData.Customers[0];
+    var customer2 = CustomerData.Customers[1];
+    var product1 = CustomerData.Products[0];
+    var product2 = CustomerData.Products[1];
+    var product3 = CustomerData.Products[2];
+
+    Order order1 = new()
+    {
+        Id = 1,
+        Customer = customer1,
+        OrderDate = DateTime.Now,
+        ShippingAddress = customer1.HomeAddres,
+        OrderItems = new List<OrderItem>
+        {
+            new OrderItem
+            {
+                Id = 1,
+                Product = product1,
+                Quantity = 2,
+                PurchasePrice = product1.CurrentPrice
+            }
+        }
+    };
+
+    Order order2 = new()
+    {
+        Id = 2,
+        Customer = customer2,
+        OrderDate = DateTime.Now,
+        ShippingAddress = customer2.HomeAddres,
+        OrderItems = new List<OrderItem>
+        {
+            new OrderItem
+            {
+                Id = 1,
+                Product = product2,
+                Quantity = 1,
+                PurchasePrice = product2.CurrentPrice
+            },
+            new OrderItem
+            {
+                Id = 2,
+                Product = product3,
+                Quantity = 2,
+                PurchasePrice = product3.CurrentPrice * 2
+            }
+        }
+    };
+
+    CustomerData.Orders.Add(order1);
+    CustomerData.Orders.Add(order2);
 }

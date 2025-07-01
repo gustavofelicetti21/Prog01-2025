@@ -20,9 +20,12 @@ namespace Aula05Projeto.Controllers
             _productRepository = new ProductRepository();
         }
 
+        [HttpGet]
         public IActionResult Index()
         {
-            return View(_orderRepository.RetrieveAll());
+            List<Order> orders = _orderRepository.RetrieveAll();
+
+            return View(orders);
         }
 
         [HttpGet]

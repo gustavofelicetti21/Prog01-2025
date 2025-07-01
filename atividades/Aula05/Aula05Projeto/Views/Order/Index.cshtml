@@ -1,5 +1,111 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model List<Modelo.Order>
 @{
+    int count1 = 0;
 }
+
+<h2 class="text-center">Orders</h2>
+
+<a asp-action="Create" asp-controller="Order" class="btn btn-primary mb-3">
+    Novo Product
+</a>
+
+<p>clique em alguma order</p>
+<div class="row">
+    @foreach (var o in Model)
+    {
+        double vl_total = 0;
+        if ((count1 % 2) == 0)
+        {
+            <div class="row py-3 px-0 text-center bg-white d-flex align-items-center border-top border-bottom" data-bs-toggle="collapse" data-bs-target="#detalhesPedido_@o.Id" style="cursor: pointer;">
+                <div class="col-1">
+                    <p class="fw-bold mb-0">Id: <span class="fw-normal">@o.Id</span></p>
+                </div>
+                <div class="col-2">
+                    <p class="fw-bold mb-0">Cliente: <span class="fw-normal">@o.Customer!.Name</span></p>
+                </div>
+                <div class="col-2">
+                    <p class="fw-bold mb-0">Data: <span class="fw-normal">@o.OrderDate</span></p>
+                </div>
+                <div class="col-3">
+                    <p class="fw-bold mb-0">Entrega: <span class="fw-normal"></span></p>
+                </div>
+                @foreach (var oi in o.OrderItems!)
+                {
+                    vl_total += oi.PurchasePrice;
+                }
+                <div class="col-2">
+                    <p class="fw-bold mb-0">Valor Total: <span class="fw-normal">@string.Format("{0:C}", vl_total)</span></p>
+                </div>
+                <div class="col-2">
+                    <button class="btn btn-primary">Editar</button>
+                    <button class="btn btn-danger">Excluir</button>
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="row py-3 px-0 bg-light text-center d-flex align-items-center border-top border-bottom" data-bs-toggle="collapse" data-bs-target="#detalhesPedido_@o.Id" style="cursor: pointer;">
+                <div class="col-1">
+                    <p class="fw-bold mb-0">Id: <span class="fw-normal">@o.Id</span></p>
+                </div>
+                <div class="col-2">
+                    <p class="fw-bold mb-0">Cliente: <span class="fw-normal">@o.Customer!.Name</span></p>
+                </div>
+                <div class="col-2">
+                    <p class="fw-bold mb-0">Data: <span class="fw-normal">@o.OrderDate</span></p>
+                </div>
+                <div class="col-3">
+                    <p class="fw-bold mb-0">Entrega: <span class="fw-normal"></span></p>
+                </div>
+                @foreach (var oi in o.OrderItems!)
+                {
+                    vl_total += oi.PurchasePrice;
+                }
+                <div class="col-2">
+                    <p class="fw-bold mb-0">Valor Total: <span class="fw-normal">@string.Format("{0:C}", vl_total)</span></p>
+                </div>
+                <div class="col-2">
+                    <button class="btn btn-primary">Editar</button>
+                    <button class="btn btn-danger">Excluir</button>
+                </div>
+            </div>
+        }
+        <div id="detalhesPedido_@o.Id" class="collapse row px-0 py-2 text-center w-100 border-bottom">
+            <div class="col-3">
+                <p class="fw-bold" style="font-size: 15px;">Id:</p>
+            </div>
+            <div class="col-3" style="font-size: 15px;">
+                <p class="fw-bold">Produto:</p>
+            </div>
+            <div class="col-2" style="font-size: 15px;">
+                <p class="fw-bold">Quantidade:</p>
+            </div>
+            <div class="col-2" style="font-size: 15px;">
+                <p class="fw-bold">Preço Venda:</p>
+            </div>
+            <div class="col-2" style="font-size: 15px;">
+                <p class="fw-bold">Total:</p>
+            </div>
+            @foreach(var oi in o.OrderItems!)
+            {
+                <div class="col-3">
+                    <p style="font-size: 13px;" class="m-0">@oi.Id</p>
+                </div>
+                <div class="col-3">
+                    <p style="font-size: 13px;" class="m-0">@oi.Product!.ProductName</p>
+                </div>
+                <div class="col-2">
+                    <p style="font-size: 13px;" class="m-0">@oi.Quantity</p>
+                </div>
+                <div class="col-2">
+                    <p style="font-size: 13px;" class="m-0">@string.Format("{0:C}", oi.Product.CurrentPrice)</p>
+                </div>
+                <div class="col-2">
+                    <p style="font-size: 13px;" class="m-0">@string.Format("{0:C}", oi.PurchasePrice)</p>
+                </div>
+            }
+        </div>
+
+        count1++;
+    }
+</div>
